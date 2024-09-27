@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina tu Número</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Adivina tu Número</h1>
+        <p>Intenta adivinar un número entre 1 y 100.</p>
+        <form id="juego-form">
+            <input type="number" id="numero" placeholder="Tu número" min="1" max="100">
+            <button type="button" id="jugar-btn">Adivinar</button>
+            <button type="button" id="reiniciar-btn">Reiniciar</button>
+        </form>
+        <p id="mensaje"></p>
+        <p id="intentos-restantes">Intentos restantes: 10</p>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>

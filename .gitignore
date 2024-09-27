@@ -1,0 +1,19 @@
+# Ignorar la carpeta node_modules
+node_modules/
+
+# Ignorar las carpetas de Cypress generadas automáticamente
+cypress/downloads/
+
+# Ignorar archivos de configuración de Cypress específicos de entorno
+cypress.env.json
+
+# Ignorar archivos de lock de dependencias (si prefieres no subirlos)
+package-lock.json
+
+# Ignorar archivos y carpetas temporales o de entorno
+.DS_Store
+.env
+
+# Ignorar carpetas de resultados de pruebas, videos, y capturas
+cypress/screenshots/
+cypress/videos/
